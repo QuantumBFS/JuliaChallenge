@@ -1,26 +1,6 @@
-# Guides
-## How to CODE
-In general, we prefer using [Juno](http://docs.junolab.org/latest/man/installation.html).
-Jupyter notebooks with [IJulia](https://github.com/JuliaLang/IJulia.jl) kernel is suited for writting simple code, but it is well known as hard to be version controlled.
+# Tool Chain for Physicists
+Please help us gather benchmark results [:thumbsup: or :thumbsdown:?] in issue #)
 
-Coding in `vim` directly is not recommended since running code line by line is nessesary for debuging Julia programs (There is no `jdb`!).
-
-## How to develop a Project
-#### Start a new project
-https://docs.julialang.org/en/v1/stdlib/Pkg/index.html#Creating-your-own-projects-1
-
-##### comments
-* `activate .` sould be used when you are going to change the dependancy of a project in current folder (i.e. changing `./Project.toml`).
-* `uuid` contains the information of both package name and version number.
-
-#### setup tests
-To run a test, type `julia test/runtests.jl`.
-To setup continuous integration for your test, you need
-* get started with [travis-ci](https://docs.travis-ci.com/user/getting-started/)
-
-#### Register your package
-
-## Tool Chain for Physicists (please help us gather benchmark results [:thumbsup: or :thumbsdown:?] in issue #)
 There are some useful tools (Packages) that will help you work with Julia in Physics, but you might want to find what you want first in**Julia.jl**.
 
 - [Julia.jl](https://github.com/svaksha/Julia.jl) Curated decibans of Julia language.
