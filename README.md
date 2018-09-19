@@ -12,7 +12,7 @@ These tests cover
 Another important aspect that Julia is different from other language is package development.
 This part will be covered [here](DevelopGuide.md)
 
-## Get Start
+## Get Started
 1. install julia 1.0 from [here](https://julialang.org/downloads/) and install IJulia from [here](https://github.com/JuliaLang/IJulia.jl),
 2. clone this repo to your local host
 ```bash
