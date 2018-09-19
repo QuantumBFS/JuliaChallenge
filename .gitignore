@@ -1,6 +1,8 @@
 *.jl.cov
 *.jl.*.cov
 *.jl.mem
+*.mod
+*.so
 
 docs/build/
 docs/site/
@@ -15,3 +17,4 @@ _*.jld2
 __pycache__/
 
 Manifest.toml
+_local/

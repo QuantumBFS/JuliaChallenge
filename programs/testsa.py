@@ -5,7 +5,6 @@ from numpy import *
 from numpy.testing import dec,assert_,assert_raises,assert_almost_equal,assert_allclose
 from scipy.sparse import coo_matrix
 import pdb,sys
-sys.path.insert(0,'../')
 
 from sa import SAP,anneal
 
@@ -45,7 +44,7 @@ def test_codec():
     J=coo_matrix((data[:,2],(data[:,0],data[:,1])),shape=(N,N),dtype='int32').toarray()
     J=(J+J.T)/2.
     cc=CC(J)
-    Emin,Config=anneal(cc,tempscales=linspace(10,0.6,51),nms=4000,nrun=10)
+    Emin,Config=anneal(cc,tempscales=linspace(10,0.6,51),nms=4000,nrun=30)
     assert_(Emin==-3858 and cc.get_cost(Config)==Emin)
 
 if __name__=='__main__':
