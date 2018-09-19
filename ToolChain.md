@@ -1,5 +1,6 @@
 # Tool Chain for Physicists
-Please help us gather benchmark results [:thumbsup: or :thumbsdown:?] in issue #)
+This page is adapted from [TutorialForPhysicists](https://github.com/Roger-luo/TutorialForPhysicists.jl).
+Please help us benchmark these packages [:thumbsup: or :thumbsdown:?] under issue [#1](https://github.com/QuantumBFS/JuliaChallenge/issues/1))
 
 There are some useful tools (Packages) that will help you work with Julia in Physics, but you might want to find what you want first in**Julia.jl**.
 
