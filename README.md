@@ -30,7 +30,6 @@ $ jupyter notebook Challenge.ipynb
 
 If you appreciate this repo, please donate me with Wechat pay (1-10 RBM for quality ranking)
 
-<img src="data/barcode.png" alt="barcode" width="300"/>
-![](data/barcode.png=300x)
+![](data/barcode.png)
 
 This project is motivated by [Numeric Club](http://num.v2nobel.com)
