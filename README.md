@@ -29,5 +29,7 @@ $ jupyter notebook Challenge.ipynb
 [JinGuo Liu](https://giggleliu.github.io/)
 
 If you appreciate this repo, please donate me with Wechat pay (1-10 RBM for quality ranking)
+
 <img src="data/barcode.png" alt="barcode" width="300"/>
+
 This project is motivated by [Numeric Club](num.v2nobel.com)
