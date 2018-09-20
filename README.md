@@ -5,6 +5,7 @@ Can you solve all the puzzles in noteboook `Challenge.ipynb`?
 [Test driven development](https://en.wikipedia.org/wiki/Test-driven_development) is not only interesting, but also good for learning a new language.
 Notebook `Challenge.ipynb` contains a lot of tasks specified by tests.
 These tests cover
+
 * Toolchain for numerical simulations (also, see the list of toolchain for physicists [here](ToolChain.md))
 * Write Julia functions
 * Write simulated annealing
@@ -26,3 +27,7 @@ $ jupyter notebook Challenge.ipynb
 
 ## Author
 [JinGuo Liu](https://giggleliu.github.io/)
+
+If you appreciate this repo, please donate me with Wechat pay (1-10 RBM for quality ranking)
+<img src="data/barcode.png" alt="barcode" width="300"/>
+This project is motivated by [Numeric Club](num.v2nobel.com)
