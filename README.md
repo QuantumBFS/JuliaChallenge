@@ -17,7 +17,7 @@ This part will be covered [here](DevelopGuide.md)
 1. install julia 1.0 from [here](https://julialang.org/downloads/) and install IJulia from [here](https://github.com/JuliaLang/IJulia.jl),
 2. clone this repo to your local host
 ```bash
-$ git clone git@github.com:QuantumBFS/JuliaChallenge.git
+$ git clone https://github.com/QuantumBFS/JuliaChallenge.git
 $ cd JuliaChallenge
 ```
 3. open the notebook and **pass all the tests**!
