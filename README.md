@@ -1,4 +1,5 @@
 # Julia Challenge
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QuantumBFS/JuliaChallenge/master)
 Can you solve all the puzzles in noteboook `Challenge.ipynb`?
 
 ## Contents
