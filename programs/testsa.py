@@ -4,7 +4,7 @@ Tests for nrg.
 from numpy import *
 from numpy.testing import dec,assert_,assert_raises,assert_almost_equal,assert_allclose
 from scipy.sparse import coo_matrix
-import pdb,sys
+import pdb,sys, os
 
 from sa import SAP,anneal
 
@@ -40,7 +40,7 @@ class CC(SAP):
 def test_codec():
     #run a simple test: code challenge
     N=300
-    data=loadtxt('example.txt')
+    data=loadtxt(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'example.txt'))
     J=coo_matrix((data[:,2],(data[:,0],data[:,1])),shape=(N,N),dtype='int32').toarray()
     J=(J+J.T)/2.
     cc=CC(J)

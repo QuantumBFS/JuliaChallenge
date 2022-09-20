@@ -9,7 +9,8 @@ Standard library in Julia is consist of `LinearAlgebra`, `SparseArrays`, `Statis
 
 ### Tensor Operations and Linear Algebra
 #### Tensor Basics
-- :thumbsup:[TensorOperations](https://github.com/Jutho/TensorOperations.jl) Julia package for tensor contractions and related operations
+- :thumbsup:[OMEinsum](https://github.com/under-Peter/OMEinsum.jl) A Julia package for einsum and its contraction order optimization.
+- :thumbsup:[TensorOperations](https://github.com/Jutho/TensorOperations.jl) A Julia package for tensor contractions and related operations
 - :thumbsdown:[Einsum.jl](https://github.com/ahwillia/Einsum.jl) Einstein summation notation in Julia
 - [CuArrays.jl](https://github.com/JuliaGPU/CuArrays.jl) A Curious Cumulation of CUDA Cuisine 
 - :thumbsup:[StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl) Statically sized arrays for Julia
